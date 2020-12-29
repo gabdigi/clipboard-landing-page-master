@@ -2,3 +2,13 @@
 	margin: 0;
 	padding: 0;
 }
+
+header {
+	
+}
+
+footer {
+	height: 150px;
+	width: 100%;
+	background-color: #f5f6f8;
+}
