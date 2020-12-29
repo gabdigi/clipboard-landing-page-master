@@ -6,15 +6,34 @@
 	box-sizing: border-box;
 }
 
-header {
-
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	background-image: url(../img/bg-header-desktop.png);
+  	background-repeat: no-repeat;
+  	
 }
+
+header {
+	text-align: center;
+	margin: 20vh 0 25.6vh 0;
+}
+
+header img {
+	height: 125px;
+	width: 125px;
+	margin-bottom: 11vh;
+}
+
 
 footer {
 	height: 150px;
 	width: 100%;
 	background-color: #f5f6f8;
-	font-family: 'Bai Jamjuree', sans-serif;
+	
+}
+
+.section-1 {
+	align-items: center;
 }
 
 .footer {
@@ -34,12 +53,13 @@ footer {
 
 .footer-section-faq ul{
 	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	list-style-type: none;
 }
 
 .footer-section-faq ul li{
-	list-style-type: none;
-	margin: 0px 00px 0 0;
-	flex-wrap: wrap;
+	
 }
 
 .footer-section-logo {
