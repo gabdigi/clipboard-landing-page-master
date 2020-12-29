@@ -24,6 +24,21 @@ header img {
 	margin-bottom: 11vh;
 }
 
+header h1 {
+	margin-left: 27.45vw;
+	margin-right: 27.45vw;
+}
+
+header p {
+	margin-top: 6.4vh;
+	margin-left: 27.81844802342606vw;
+	margin-right: 27.81844802342606vw;
+	color: hsl(203, 5%, 67%);
+}
+
+header button {
+	
+}
 
 footer {
 	height: 150px;
