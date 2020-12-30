@@ -17,6 +17,10 @@ h1, h3 {
 	color: #4C555C;
 }
 
+p {
+	color: hsl(203, 5%, 67%);
+}
+
 header {
 	text-align: center;
 	margin: 20vh 0 25.6vh 0;
@@ -115,6 +119,27 @@ header button:nth-child(2n+1) {
 
 /******************section2*****************/
 
+/******************section3*****************/
+
+.section-3 h1 {
+	text-align: center;
+}
+
+
+.section-3-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 0 0;
+}
+
+
+.table {
+	
+}
+
+/******************section3*****************/
+
 
 footer {
 	height: 150px;
@@ -163,3 +188,20 @@ footer {
 	
 }
 
+
+
+@media screen and (max-width: 320px) {
+	body {
+		background-image: url("img/bg-header-mobile.png");
+	}
+
+	.section-1-flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+}
