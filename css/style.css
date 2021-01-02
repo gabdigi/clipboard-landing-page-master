@@ -55,14 +55,14 @@ header button {
 }
 
 header button:nth-child(2n) {
-	box-shadow: 0 5px #53B9A4;
+	box-shadow: 0 5px #2C9881;
 	border: none;
 	background-color: #24BCA7;
 
 }
 
 header button:nth-child(2n+1) {
-	box-shadow: 0 5px #8590D0;
+	box-shadow: 0 5px #5764C0;
 	border: none;
 	background-color: #6174FF;
 }
@@ -122,6 +122,10 @@ header button:nth-child(2n+1) {
 /******************section2*****************/
 
 /******************section3*****************/
+
+.section-3 {
+	margin: 0 12vw 0 12vw;
+}
 
 .section-3 h1 {
 	text-align: center;
@@ -190,14 +194,14 @@ header button:nth-child(2n+1) {
 }
 
 .section-4 button:nth-child(2n) {
-	box-shadow: 0 5px #53B9A4;
+	box-shadow: 0 5px #2C9881;
 	border: none;
 	background-color: #24BCA7;
 
 }
 
 .section-4 button:nth-child(2n+1) {
-	box-shadow: 0 5px #8590D0;
+	box-shadow: 0 5px #5764C0;
 	border: none;
 	background-color: #6174FF;
 }
@@ -206,6 +210,7 @@ header button:nth-child(2n+1) {
 
 
 footer {
+	margin-top: 24vh;
 	height: 150px;
 	width: 100%;
 	background-color: #f5f6f8;
@@ -215,9 +220,10 @@ footer {
 .footer {
 	display: flex;
 	justify-content: space-around;
+	margin: 0 12vw 0 12vw;
 }
 
-.footer-logo img{
+.footer-logo img {
 	margin: 50px 0 0 0;
 	height: 55px;
     width: 55px;
@@ -227,28 +233,36 @@ footer {
 	margin: 50px 0 0 0;	
 }
 
-.footer-section-faq ul{
+.footer-section-faq ul {
+	max-width: 580px;
 	display: flex;
 	flex-wrap: wrap;
+	text-align: left;
 	padding: 0;
 	list-style-type: none;
 }
 
-.footer-section-faq ul li{
-	
+.footer-section-faq ul li {
+	margin: 0 0 30px 70px;
+	color: hsl(203, 5%, 67%);
+	font-size: 1em;
 }
 
 .footer-section-logo {
-	margin: 50px 0 0 0;
-	display: inline-block;
+	margin: 60px 0 0 0;
 }
 
-.footer-section-logo ul li{
+.footer-section-logo ul {
+	display: flex;
+}
+
+
+.footer-section-logo ul li {
 	list-style-type: none;
 }
 
-.footer-section-logo ul li img{
-	list-style-type: none;
+.footer-section-logo ul li img {
+	margin-left: 25px;
 	
 }
 
