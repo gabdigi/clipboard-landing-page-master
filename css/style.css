@@ -267,13 +267,27 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
-		.section-1-flex {
-			display: block;
-			flex-direction: column;
-
+	.section-1-flex {
+		display: block;
+		flex-direction: column;
 	}
+
+	.section-1-flex img {
+		width: 50%;
+		height: 50%;
+	}
+
+	.section-1-flex ul {
+	    text-align: center;
+    }
+
+    .section-1-flex li {
+    	justify-content: center;
+    	text-align: center
+    }
+
 }
 
 
@@ -283,22 +297,5 @@ footer {
 		background-image: url("img/bg-header-mobile.png");
 	}
 
-	section {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.section-1-flex {
-		flex-direction: column;
-	}
-
-	.footer {
-		display: flex;
-		
-	}
-
-	.footer-section-faq {
-		display: flex;
-		flex-direction: column;
-	}
+	
 }
