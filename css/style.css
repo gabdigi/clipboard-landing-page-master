@@ -269,6 +269,35 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
+	header h1 {
+		font-size: 3em;
+	   }
+
+	header p {
+		font-size: 1.5em;
+		margin-top: 6.4vh;
+		margin-left: 27.81844802342606vw;
+		margin-right: 27.81844802342606vw;
+		color: hsl(203, 5%, 67%);
+	}
+
+	header button {
+		display: flex;
+		margin: 50px 40vw 50px 40vw;
+	}
+
+	.btn-text-1 {
+		display: flex;
+		padding: 20px 0 0 60px; 
+
+	}
+
+	.btn-text {
+		display: flex;
+		padding: 20px 0 0 40px; 
+
+	}
+
 	.section-1-flex {
 		display: block;
 		flex-direction: column;
@@ -280,22 +309,16 @@ footer {
 	}
 
 	.section-1-flex ul {
-	    text-align: center;
+	    align-items: center;
+
     }
 
     .section-1-flex li {
-    	justify-content: center;
-    	text-align: center
+    	width: 300px;
+    	margin: 0 0 0 27vw;
+    	text-align: center;
     }
 
 }
-
-
-@media screen and (max-width: 425px) {
-
-	body {
-		background-image: url("img/bg-header-mobile.png");
-	}
-
 	
 }
